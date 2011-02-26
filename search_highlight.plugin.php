@@ -56,7 +56,7 @@
 						$phrase = MultiByte::substr( $content, $pos, MultiByte::strlen( $s ) );
 						
 						// just replace it in the content with a span
-						$content = MultiByte::str_replace( $phrase, '<span class="search_highlight">' . $phrase . '</span>', $content );
+						$content = MultiByte::str_replace( $phrase, '<span class="highlight">' . $phrase . '</span>', $content );
 						
 					}
 					
